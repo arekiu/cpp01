@@ -2,9 +2,9 @@
 
 void	randomChump(std::string name)
 {
-	Zombie	new_zombie(name);
+	Zombie	zombie2(name);
 
-	new_zombie.announce();
+	zombie2.announce();
 }
 
 //Stack allocation
