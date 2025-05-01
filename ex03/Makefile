@@ -1,4 +1,4 @@
-NAME	= ex01
+NAME	= ex03
 SRC		= main.cpp Weapon.cpp HumanA.cpp HumanB.cpp
 OBJ		= $(SRC:.cpp=.o)
 CC		= c++
