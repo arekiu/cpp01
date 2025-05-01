@@ -5,6 +5,11 @@ Weapon::Weapon()
 	return ;
 }
 
+
+Weapon::Weapon(const std::string &type)
+	: _type(type)
+{}
+
 Weapon::~Weapon()
 {
 	return ;
