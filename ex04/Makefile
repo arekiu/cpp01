@@ -1,5 +1,5 @@
 NAME	= ex04
-SRC		= main.cpp
+SRC		= main.cpp FileChanger.cpp
 OBJ		= $(SRC:.cpp=.o)
 CC		= c++
 FLAGS	= -Wall -Wextra -Werror -std=c++98
