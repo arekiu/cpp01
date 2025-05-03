@@ -10,6 +10,7 @@ class FileChanger {
 			std::string	_s2;
 
 	public:
+			FileChanger(const std::string& filename, const std::string& s1, const std::string& s2);
 };
 
 #endif
