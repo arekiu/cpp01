@@ -20,5 +20,5 @@ int	main(int argc, char* argv[]) {
 	}
 
 	FileChanger changer(filename, s1, s2);
-
+	changer.processFile();
 }

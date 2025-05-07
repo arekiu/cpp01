@@ -2,6 +2,9 @@
 #define FILECHANGER_HPP
 
 #include <string>
+#include <fstream>
+#include <sstream>
+#include <iostream>
 
 class FileChanger {
 	private:
@@ -11,6 +14,7 @@ class FileChanger {
 
 	public:
 			FileChanger(const std::string& filename, const std::string& s1, const std::string& s2);
+			void processFile();
 };
 
 #endif
