@@ -1,5 +1,5 @@
 NAME	= ex05
-SRC		= main.cpp FileChanger.cpp
+SRC		= main.cpp Harl.cpp
 OBJ		= $(SRC:.cpp=.o)
 CC		= c++
 FLAGS	= -Wall -Wextra -Werror -std=c++98
